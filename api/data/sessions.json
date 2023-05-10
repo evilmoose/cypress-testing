@@ -3658,6 +3658,27 @@
       "level": "Advanced",
       "day": "Thursday",
       "id": "80324ba4-9e40-4d22-9062-3919d956dc09"
+    },
+    {
+      "title": "New session title",
+      "description": "This is the greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "f8fa63b9-8459-47dc-a7fa-6259f0234bbb"
+    },
+    {
+      "title": "New session title",
+      "description": "This is the greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "2a444dcc-78a1-4bb6-88a7-4717d434ebe6"
+    },
+    {
+      "title": "New session title",
+      "description": "This is the greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "c93291ae-ceb7-4b76-ba90-11897eb001ff"
     }
   ]
 }

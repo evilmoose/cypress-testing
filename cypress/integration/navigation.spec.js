@@ -50,3 +50,40 @@ cy.intercept("/users/**");  // manage behavior of network request and responses.
 // Chained off parent commands or other child commands
 //cy.get("[data-cy=speakerProfil").click();
 
+// Selectors
+
+// Cyprerss will automatically calculate a unique
+// selector to use targetes element
+// - data-cy, data-test, data-testid
+// - id, clss, tag, attributes, nth-child
+
+// You can control how a selector is determined
+// using 'Cypress.SelectorPlayground API'
+
+// Example
+
+/* Component to test
+<button
+    id="main"
+    class="btn btn-large"
+    name="submission"
+    role="button"
+    data=-cy="submit"
+>
+Submit
+*/
+
+/* Cypress test
+Worst way: cy.get("button").click();    // Too generic and many buttons
+
+bad idea: cy.get(".btn.btn-large").click();     // It's connected to styling and styling could change
+
+bad idea: cy.get("main").click()    // Connected to something that could change
+
+bad idea: cy.get("[name=submission]").click(); // Connected to something that might change.
+
+good idea: cy.contains("Submit").click();  // Look for the actual text on the button.
+
+// Summary: Use the data-cy, data-test, and data-testid attibutes to provide
+//          context to you selectors and isolate them from CSS or JS changes.
+ */
