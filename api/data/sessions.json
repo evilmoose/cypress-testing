@@ -3630,6 +3630,34 @@
       "level": "Intermediate",
       "day": "Thursday",
       "id": "814b1f5e-e6df-440b-a91c-df198b5bbed2"
+    },
+    {
+      "title": "New session title",
+      "description": "This is ytje greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "85ca0333-7543-442c-ab16-791a0a83d4b3"
+    },
+    {
+      "title": "New session title",
+      "description": "This is ytje greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "18adc323-50fe-4ae7-88ca-4f824af47ec6"
+    },
+    {
+      "title": "New session title",
+      "description": "This is the greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "f4405fa2-b9eb-4972-b280-da9c3c3d451d"
+    },
+    {
+      "title": "New session title",
+      "description": "This is the greatest session",
+      "level": "Advanced",
+      "day": "Thursday",
+      "id": "80324ba4-9e40-4d22-9062-3919d956dc09"
     }
   ]
 }
